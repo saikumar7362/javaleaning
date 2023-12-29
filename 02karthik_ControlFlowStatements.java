@@ -52,7 +52,7 @@ switch(Choice)
             System.out.println("Subject:"+i+":"+presentchar);
 
         }
-    
+        
 
         
 
