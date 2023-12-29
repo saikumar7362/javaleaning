@@ -1,3 +1,5 @@
+package javaleaning;
+
 public class BankAccount {
     String accountName;
     long  accountNumber;
