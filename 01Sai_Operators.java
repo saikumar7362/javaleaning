@@ -1,12 +1,13 @@
 package javaleaning;
  class Sai_Operators {
     public static void main(String[] args){
-        int a = 10;
-        int b = 3;
+        double  a = 10;
+        double b = 3;
         int c = 5;
+       // System.out.println("adsaf"+(a/b));
         //arthmatic operators
-        int result1 = (a+b)+(a*b)*(a/b)/(a-c)-(a%b);
-        System.out.println("Arthmatic operators :" +result1);
+       double  result1 = (a+b)+(a*b)*(a/b)/(a-c)-(a%b);
+        System.out.println("Arthmatic operators :" + result1);
         //Assignment operators
         int result2 = result1;
             result2 += 5;

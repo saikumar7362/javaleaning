@@ -13,7 +13,7 @@ public static void main (String [] args)
        boolean Result4 =(book1*book2)==(book2/book1);//Relational Operator
        boolean Result5= (book1/book2)!=(book2/book1);//Relational operator
        int Result6= (book1+--book2);//incremet/Decrement
-       int Result7= book1=1;//Assignment Operator
+       int Result7= book1-10;//Assignment Operator
        book1=book1+5;
        System.out.println("Books:"+Result);
        System.out.println("Books:"+Result0);
