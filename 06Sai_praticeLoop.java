@@ -2,16 +2,29 @@ package javaleaning;
 
 class Sai_praticeLoop {
  public static void main(String[] args){
- int date = 13;
- String festival;
- switch(date){
-    case 13 : festival = "no festival";
-        break;
-    case 14 : festival = "Happy Bhogi";
-    case 15 : festival = "happy sankranti";
-    case 16:  festival = "happy kanuma";
-    default: festival = "unknown";
- }
-    System.out.println("the festival day is :" +festival);
+int n =1234;
+int sum =0;
+for(int i=0;)
+while(n>0){
+ int m =n%10;
+ System.out.println(m);
+ sum+=m;
+n=n/10;
+}
+System.out.println(sum);
  }   
 }
+/* 
+//1015
+output-7;
+1015/10 =101;
+1015%10=5;
+
+101/10=10;
+101%10=1;
+
+10/10=1;
+10%10=0;
+
+1/10=0;
+1%10=1;*/
