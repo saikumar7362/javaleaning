@@ -2,18 +2,22 @@ package javaleaning;
 
 class Sai_praticeLoop {
  public static void main(String[] args){
-int n =1234;
-int sum =0;
-for(int i=0;)
-while(n>0){
- int m =n%10;
- System.out.println(m);
- sum+=m;
-n=n/10;
+  int n = 10;
+ int factorial = 0;
+ for(int i=2; i<=n; i++ ){
+  for(int j=1; j<=i; j++){
+    if(i%j==0){
+      factorial+=1;
+    }
+  }
+  if(factorial==0){
+    System.out.println(i);
+  }
+ }
 }
-System.out.println(sum);
- }   
 }
+   
+
 /* 
 //1015
 output-7;

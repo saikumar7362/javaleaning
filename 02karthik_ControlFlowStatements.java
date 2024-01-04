@@ -6,7 +6,7 @@ class karthik_ControlFlowStatements {
     public static void main(String [] args)
     {
     //Sample Condition for both If /If else statements ------------------->
-         boolean sunny = true;
+   /*      boolean sunny = true;
          if(sunny) {
             System.out.println("Let's go outSide");
     }
@@ -51,12 +51,18 @@ switch(Choice)
             char presentchar=Subject.charAt(i);
             System.out.println("Subject:"+i+":"+presentchar);
 
-        }
-        
+        }*/
+  
+	    
+	
+		
+	}
+}   
+
 
         
 
-        }
-    }
+        
+    
     
 
