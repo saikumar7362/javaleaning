@@ -3,7 +3,7 @@ package javaleaning;
 class KarthikOperator {
 public static void main (String [] args)
     {
-      int book1 =5;
+      /*  int book1 =5;
       int book2 =2;
        int Result =(book1+book2)*(book1-book2)/(book1*book2);//Arithmetic Operator
        int Result0 =(book2-book1)+(book2*book1)%(book1-book2);//Arithmetic
@@ -24,6 +24,9 @@ public static void main (String [] args)
        System.out.println("Books:"+Result5);
        System.out.println("Books:"+Result6);
        System.out.println("Books:"+Result7);
+     */
+    
+
     }
     
 }
