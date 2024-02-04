@@ -1,6 +1,6 @@
 public class FibonacciSeries1 {
     public static void main(String[] args) {
-        int n = 10; // Change the value of n to generate different number of Fibonacci numbers
+        int n = 5; // Change the value of n to generate different number of Fibonacci numbers
         int firstTerm = 0, secondTerm = 1;
         
         System.out.println("Fibonacci Series upto " + n + " terms:");
