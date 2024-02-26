@@ -7,7 +7,6 @@ public class EmpAL {
             this.EmpId = EmpId;
             this.EmpName = EmpName;
             this.EmpAge = EmpAge;
-
         }
         //userdefine arraylist
         class UdarrayList{
